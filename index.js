@@ -14,7 +14,7 @@ class HtmlCode extends HTMLElement {
   shadowRoot = null;
   type = 'code';
   uuid = crypto.randomUUID();
-  debug = false;
+  debug = true;
 
   constructor() {
     super();
